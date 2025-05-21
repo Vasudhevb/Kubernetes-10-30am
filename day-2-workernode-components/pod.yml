@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: myapp
   labels:
-      app: webapp
+      app: my-app
       type: front-end
 spec:
   containers:
