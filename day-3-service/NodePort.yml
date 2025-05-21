@@ -21,9 +21,9 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: my-app-np
+  name: my-app
   labels:
-    app: my-app-np
+    app: my-app
 spec:
   type: NodePort
   ports:
